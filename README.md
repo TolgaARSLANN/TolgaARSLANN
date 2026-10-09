@@ -1,45 +1,65 @@
-# Hi, I'm Tolga! 👋
+<h1 align="center">Tolga Arslan</h1>
 
-I'm a Computer Engineering graduate working toward becoming an AI-Powered Full Stack Developer. Based in Turkey, open to remote/global opportunities long-term.
+<p align="center">
+  <b>Software Developer · Python · FastAPI · React · Machine Learning</b><br>
+  Computer Engineering graduate (English-taught) · İstanbul, Türkiye
+</p>
 
-## 🚀 About Me
-
-- 💻 Following a structured learning roadmap covering full-stack web development (HTML/CSS, JS, backend, AI integration)
-- 🤖 Passionate about integrating machine learning models (scikit-learn) into real-world applications
-- 🌱 Currently building end-to-end projects with FastAPI, Docker, and React
-- 🎯 Goal: start my career in Turkey, then transition into international/remote roles
-
-## 🛠️ Tech Stack
-
-**Backend:** Python, FastAPI, PostgreSQL  
-**Frontend:** JavaScript, React, HTML/CSS  
-**DevOps:** Docker, Git & GitHub  
-**AI/ML:** scikit-learn, pandas, Random Forest models
-
-## 📌 Featured Projects
-
-### 🌍 [Real-Time Air Quality & Health Analysis Platform](https://github.com/TolgaARSLANN/air-quality-platform)
-A full-stack platform that analyzes real-time air quality data and predicts health impacts. Built with Random Forest Regressor, FastAPI, Docker, PostgreSQL, and React.
-
-### 📊 [Crypto/Stock Portfolio Tracker (AI-Powered)](https://github.com/TolgaARSLANN/portfolio-tracker)
-A crypto/stock portfolio tracker that predicts price direction using technical indicators (RSI, MACD, SMA, EMA) and a Random Forest Classifier.
-
-### 🕸️ [Social Network Analysis: Marvel Universe](https://github.com/TolgaARSLANN/sna-marvel-universe)
-A Jupyter Notebook project exploring character relationships in the Marvel universe through graph theory and network analysis.
-
-### 🐾 [PetCareApp](https://github.com/TolgaARSLANN/PetCareApp)
-A JavaScript-based application for pet care management.
-
-## 📊 GitHub Stats
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=TolgaARSLANN&show_icons=true&theme=radical)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=TolgaARSLANN&layout=compact&theme=radical)
-
-## 📫 Get in Touch
-
-- LinkedIn: [tolga-arslan-838512270](https://www.linkedin.com/in/tolga-arslan-838512270/)
-- Email: tolgaarslan.dev@gmail.com
+<p align="center">
+  <a href="https://tolgaarslann.github.io"><img src="https://img.shields.io/badge/Portfolio-tolgaarslann.github.io-1f6feb?style=flat-square" alt="Portfolio"></a>
+  <a href="https://www.linkedin.com/in/tolga-arslan-838512270/"><img src="https://img.shields.io/badge/LinkedIn-Tolga%20Arslan-0a66c2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="mailto:tolgaarslan.dev@gmail.com"><img src="https://img.shields.io/badge/Email-tolgaarslan.dev%40gmail.com-ea4335?style=flat-square&logo=gmail&logoColor=white" alt="Email"></a>
+  <a href="https://tolgaarslann.github.io/Tolga_Arslan_CV_EN.pdf"><img src="https://img.shields.io/badge/CV-PDF-555?style=flat-square" alt="CV"></a>
+</p>
 
 ---
 
-⭐️ Thanks for visiting my profile!
+I build **end-to-end projects**: from collecting and cleaning data, through modeling, to **FastAPI services, automated tests, CI and live demos**. I care about results that hold up: honest baselines, leakage-free evaluation and decisions backed by measurements.
+
+🎯 **Open to junior Software Developer / ML Engineer roles** in İstanbul or remote.
+
+## 🚀 Featured Projects
+
+### 💳 Card Fraud Detection · [Live Demo](https://card-fraud-detection-demo.streamlit.app) · [Code](https://github.com/TolgaARSLANN/card-fraud-detection)
+Scores card transactions in real time using only what is known at that moment, and explains every alert.
+- **0.959 PR-AUC** on 1.85M transactions with a ~0.5% fraud rate (logistic regression: 0.534), time-based split, one-shot test evaluation
+- An expected-cost alert rule caught **98% of fraud value** and cut total cost from **$1.13M to $45.5K** over six months
+- FastAPI scoring service that returns the **top 3 reasons** per alert (SHAP), and a Streamlit panel deployed publicly with per-session isolation and pseudonymized card numbers
+- **176 tests**, Ruff and GitHub Actions CI
+
+`Python` `LightGBM` `XGBoost` `SHAP` `Optuna` `FastAPI` `Streamlit` `pytest`
+
+### 🌫️ HavaUyarı: Air Quality Early Warning · [Code](https://github.com/TolgaARSLANN/havauyari)
+Forecasts PM2.5 levels 24 hours ahead for 8 monitoring stations in 5 Turkish cities and warns before unhealthy air.
+- **47.7% lower error** than the raw CAMS forecast and **25.4%** lower than the best simple baseline in a 12-month walk-forward backtest (501K predictions)
+- Alert precision raised from **0.36 to 0.73**, with 80% prediction intervals and a "why this forecast?" explanation
+- FastAPI service and Streamlit dashboard; **121 tests**, including data-leakage checks, run on every commit
+
+`Python` `LightGBM` `FastAPI` `Streamlit` `pytest` `Open-Meteo API`
+
+### 🐾 Pawfect Care: Pet Care Platform (Capstone) · [Code](https://github.com/TolgaARSLANN/PetCareApp)
+Full-stack web app for tracking pets' health records, vaccinations, medications, weight and vet appointments.
+- REST API with **20+ endpoints**, JWT and bcrypt authentication, per-user data access
+- Rule-based care recommendations from species, weight and health history
+
+`React` `Node.js` `Express.js` `MongoDB` `JWT`
+
+## 🛠️ Tech Stack
+
+| | |
+|---|---|
+| **Languages** | Python, JavaScript, SQL, C# (basic) |
+| **Backend** | FastAPI, Node.js, Express.js, REST APIs, JWT |
+| **Frontend** | React, HTML, CSS, Streamlit |
+| **Databases** | PostgreSQL, SQL Server, MongoDB |
+| **ML / Data** | scikit-learn, LightGBM, XGBoost, SHAP, Optuna, Pandas, NumPy |
+| **Testing / DevOps** | pytest, GitHub Actions, Docker, Git |
+
+## 💼 Experience
+
+- **DeepTech/AI Intern**, ArVis Technology, Teknopark İstanbul (2024): prepared training data for a CNN-based early Alzheimer's diagnosis project in a 16-person R&D team
+- **Software Intern**, VBT Yazılım (2023): hands-on development with C#, .NET Core and SQL Server
+
+## 📫 Get in Touch
+
+The fastest way to reach me is [email](mailto:tolgaarslan.dev@gmail.com) or [LinkedIn](https://www.linkedin.com/in/tolga-arslan-838512270/). You can also find my CV and projects on my [portfolio](https://tolgaarslann.github.io).
