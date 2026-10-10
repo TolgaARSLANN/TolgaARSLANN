@@ -7,7 +7,7 @@
 
 <p align="center">
   <a href="https://tolgaarslann.github.io"><img src="https://img.shields.io/badge/Portfolio-tolgaarslann.github.io-1f6feb?style=flat-square" alt="Portfolio"></a>
-  <a href="https://www.linkedin.com/in/tolga-arslan-838512270/"><img src="https://img.shields.io/badge/LinkedIn-Tolga%20Arslan-0a66c2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="https://www.linkedin.com/in/tolga-arslan-dev/"><img src="https://img.shields.io/badge/LinkedIn-Tolga%20Arslan-0a66c2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
   <a href="mailto:tolgaarslan.dev@gmail.com"><img src="https://img.shields.io/badge/Email-tolgaarslan.dev%40gmail.com-ea4335?style=flat-square&logo=gmail&logoColor=white" alt="Email"></a>
   <a href="https://tolgaarslann.github.io/Tolga_Arslan_CV_EN.pdf"><img src="https://img.shields.io/badge/CV-PDF-555?style=flat-square" alt="CV"></a>
 </p>
@@ -62,4 +62,4 @@ Full-stack web app for tracking pets' health records, vaccinations, medications,
 
 ## 📫 Get in Touch
 
-The fastest way to reach me is [email](mailto:tolgaarslan.dev@gmail.com) or [LinkedIn](https://www.linkedin.com/in/tolga-arslan-838512270/). You can also find my CV and projects on my [portfolio](https://tolgaarslann.github.io).
+The fastest way to reach me is [email](mailto:tolgaarslan.dev@gmail.com) or [LinkedIn](https://www.linkedin.com/in/tolga-arslan-dev/). You can also find my CV and projects on my [portfolio](https://tolgaarslann.github.io).
