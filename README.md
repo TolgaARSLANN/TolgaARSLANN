@@ -37,7 +37,7 @@ Forecasts PM2.5 levels 24 hours ahead for 8 monitoring stations in 5 Turkish cit
 
 `Python` `LightGBM` `FastAPI` `Streamlit` `pytest` `Open-Meteo API`
 
-### 🐾 Pawfect Care: Pet Care Platform (Capstone) · [Code](https://github.com/TolgaARSLANN/PetCareApp)
+### 🐾 Pawfect Care: Pet Care Platform (Capstone) · [Live Demo](https://pawfect-care-inky.vercel.app/) · [Code](https://github.com/TolgaARSLANN/PetCareApp)
 Full-stack web app for tracking pets' health records, vaccinations, medications, weight and vet appointments.
 - REST API with **20+ endpoints**, JWT and bcrypt authentication, per-user data access
 - Rule-based care recommendations from species, weight and health history
