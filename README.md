@@ -9,7 +9,7 @@
   <a href="https://tolgaarslann.github.io"><img src="https://img.shields.io/badge/Portfolio-tolgaarslann.github.io-1f6feb?style=flat-square" alt="Portfolio"></a>
   <a href="https://www.linkedin.com/in/tolga-arslan-dev/"><img src="https://img.shields.io/badge/LinkedIn-Tolga%20Arslan-0a66c2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
   <a href="mailto:tolgaarslan.dev@gmail.com"><img src="https://img.shields.io/badge/Email-tolgaarslan.dev%40gmail.com-ea4335?style=flat-square&logo=gmail&logoColor=white" alt="Email"></a>
-  <a href="https://tolgaarslann.github.io/Tolga_Arslan_CV_EN.pdf"><img src="https://img.shields.io/badge/CV-PDF-555?style=flat-square" alt="CV"></a>
+  <a href="https://tolgaarslann.github.io/assets/cv/Tolga_Arslan_CV_EN.pdf"><img src="https://img.shields.io/badge/CV-PDF-555?style=flat-square" alt="CV"></a>
 </p>
 
 ---
