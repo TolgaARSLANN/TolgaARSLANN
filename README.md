@@ -46,7 +46,7 @@ Full-stack web app for tracking pets' health records, vaccinations, medications,
 
 ### 🧩 Sudoku Cozucu · [Live Demo](https://sudoku-cozucu.onrender.com/) · [Code](https://github.com/TolgaARSLANN/sudoku-cozucu)
 It reads the Sudoku puzzle from a photo, solves it, and overlays the solution onto the image—making it look as though it were written by hand with a pen; it also verifies the Sudoku grid filled in by hand.
--It utilizes OpenCV, a small neural network (ONNX) for handwriting recognition, Flask, and React.
+- It utilizes OpenCV, a small neural network (ONNX) for handwriting recognition, Flask, and React.
 
 `OpenCV` `ONNX` `Flask` `React` `Machine Learning`
 
