@@ -44,11 +44,6 @@ Full-stack web app for tracking pets' health records, vaccinations, medications,
 
 `React` `Node.js` `Express.js` `MongoDB` `JWT`
 
-### 🧩 Sudoku Cozucu · [Live Demo](https://sudoku-cozucu.onrender.com/) · [Code](https://github.com/TolgaARSLANN/sudoku-cozucu)
-It reads the Sudoku puzzle from a photo, solves it, and overlays the solution onto the image—making it look as though it were written in by hand with a pen—while also verifying the completed Sudoku grid. It utilizes OpenCV, a small neural network (ONNX) for handwriting recognition, Flask, and React.
-
-`OpenCV` `React` `Machine Learning` `Flask` `ONNX`
-
 ## 🛠️ Tech Stack
 
 | | |
