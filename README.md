@@ -22,8 +22,8 @@ I build **end-to-end projects**: from collecting and cleaning data, through mode
 
 ### 💳 Card Fraud Detection · [Live Demo](https://card-fraud-detection-demo.streamlit.app) · [Code](https://github.com/TolgaARSLANN/card-fraud-detection)
 Scores card transactions in real time using only what is known at that moment, and explains every alert.
-- **0.959 PR-AUC** on 1.85M transactions with a ~0.5% fraud rate (logistic regression: 0.534), time-based split, one-shot test evaluation
-- An expected-cost alert rule caught **98% of fraud value** and cut total cost from **$1.13M to $45.5K** over six months
+- **0.959 PR-AUC** on 1.85M synthetic transactions (Kaggle Sparkov) with a ~0.5% fraud rate (logistic regression: 0.534), time-based split, one-shot test evaluation
+- An expected-cost alert rule raised **2,522 alerts in 6 months at 74% precision**, caught **87% of fraud cases and 98% of fraud value**, and cut total cost from **$1.13M to $45.5K**
 - FastAPI scoring service that returns the **top 3 reasons** per alert (SHAP), and a Streamlit panel deployed publicly with per-session isolation and pseudonymized card numbers
 - **176 tests**, Ruff and GitHub Actions CI
 
@@ -31,35 +31,38 @@ Scores card transactions in real time using only what is known at that moment, a
 
 ### 🌫️ HavaUyarı: Air Quality Early Warning · [Code](https://github.com/TolgaARSLANN/havauyari)
 Forecasts PM2.5 levels 24 hours ahead for 8 monitoring stations in 5 Turkish cities and warns before unhealthy air.
-- **47.7% lower error** than the raw CAMS forecast and **25.4%** lower than the best simple baseline in a 12-month walk-forward backtest (501K predictions)
+- 12-month walk-forward backtest (62.6K station-hours): **MAE 12.9 → 6.8 µg/m³**, **47.7% lower** than the raw CAMS forecast and **25.4% lower** than the best simple baseline
 - Alert precision raised from **0.36 to 0.73**, with 80% prediction intervals and a "why this forecast?" explanation
-- FastAPI service and Streamlit dashboard; **121 tests**, including data-leakage checks, run on every commit
+- FastAPI service with PostgreSQL storage and a Streamlit dashboard, run via docker-compose; **152 tests**, including data-leakage checks and PostgreSQL integration tests, run on every commit
 
-`Python` `LightGBM` `FastAPI` `Streamlit` `pytest` `Open-Meteo API`
+`Python` `LightGBM` `FastAPI` `PostgreSQL` `Docker` `Streamlit` `pytest` `Open-Meteo API`
 
 ### 🐾 Pawfect Care: Pet Care Platform (Capstone) · [Live Demo](https://pawfect-care-inky.vercel.app/) · [Code](https://github.com/TolgaARSLANN/PetCareApp)
 Full-stack web app for tracking pets' health records, vaccinations, medications, weight and vet appointments.
-- REST API with **20+ endpoints**, JWT and bcrypt authentication, per-user data access
+- REST API with **34 endpoints**, secured by httpOnly JWT cookies, bcrypt, rate limiting, CSP headers and per-user data access
+- **~300 tests** (Jest/Supertest for the API, Vitest/React Testing Library for the UI) in GitHub Actions; frontend on Vercel, API on Render
 - Rule-based care recommendations from species, weight and health history
 
-`React` `Node.js` `Express.js` `MongoDB` `JWT`
+`React` `Node.js` `Express.js` `MongoDB` `JWT` `Jest` `Vitest`
 
-### 🧩 Sudoku Cozucu · [Live Demo](https://sudoku-cozucu.onrender.com/) · [Code](https://github.com/TolgaARSLANN/sudoku-cozucu)
-It reads the Sudoku puzzle from a photo, solves it, and overlays the solution onto the image—making it look as though it were written by hand with a pen; it also verifies the Sudoku grid filled in by hand.
-- It utilizes OpenCV, a small neural network (ONNX) for handwriting recognition, Flask, and React.
+### 🧩 Sudoku Solver · [Live Demo](https://sudoku-cozucu.onrender.com/) · [Code](https://github.com/TolgaARSLANN/sudoku-cozucu)
+Reads a Sudoku from a phone photo, solves it and draws the answer back onto the photo as if written in pen. It can also check a puzzle you filled in by hand.
+- On **40 unseen newspaper photos** it solved **37** and showed **0 wrong solutions**
+- A handwriting CNN (PyTorch → ONNX) flags **~90% of wrongly written digits** with only **3 false alarms in 2,073 digits**
+- React/TypeScript frontend and Flask API in Docker on Render; **111 tests** plus Playwright end-to-end tests
 
-`OpenCV` `ONNX` `Flask` `React` `Machine Learning`
+`Python` `OpenCV` `PyTorch` `ONNX` `Flask` `React` `TypeScript` `Playwright`
 
 ## 🛠️ Tech Stack
 
 | | |
 |---|---|
-| **Languages** | Python, JavaScript, SQL, C# (basic) |
-| **Backend** | FastAPI, Node.js, Express.js, REST APIs, JWT |
-| **Frontend** | React, HTML, CSS, Streamlit |
+| **Languages** | Python, JavaScript, TypeScript, SQL, C# (basic) |
+| **Backend** | FastAPI, Flask, Node.js, Express.js, REST APIs, JWT |
+| **Frontend** | React, TypeScript, HTML, CSS |
 | **Databases** | PostgreSQL, SQL Server, MongoDB |
-| **ML / Data** | scikit-learn, LightGBM, XGBoost, SHAP, Optuna, Pandas, NumPy |
-| **Testing / DevOps** | pytest, GitHub Actions, Docker, Git |
+| **ML / Data** | scikit-learn, LightGBM, XGBoost, SHAP, Optuna, PyTorch / ONNX, OpenCV, Pandas, NumPy, Streamlit |
+| **Testing / DevOps** | pytest, Playwright, Jest, Vitest, GitHub Actions, Docker, Git |
 
 ## 💼 Experience
 
