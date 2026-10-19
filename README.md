@@ -39,7 +39,7 @@ Forecasts PM2.5 levels 24 hours ahead for 8 monitoring stations in 5 Turkish cit
 
 ### 🐾 Pawfect Care: Pet Care Platform (Capstone) · [Live Demo](https://pawfect-care-inky.vercel.app/) · [Code](https://github.com/TolgaARSLANN/PetCareApp)
 Full-stack web app for tracking pets' health records, vaccinations, medications, weight and vet appointments.
-- REST API with **34 endpoints**, secured by httpOnly JWT cookies, bcrypt, rate limiting, CSP headers and per-user data access
+- REST API with **46 endpoints**, secured by httpOnly JWT cookies, bcrypt, rate limiting, CSP headers and per-user data access
 - **~300 tests** (Jest/Supertest for the API, Vitest/React Testing Library for the UI) in GitHub Actions; frontend on Vercel, API on Render
 - Rule-based care recommendations from species, weight and health history
 
